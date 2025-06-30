@@ -109,7 +109,10 @@ Example confusion matrix:
 - Balanced samples across classes (UXTD, UXSSD, UPX)
 - Evaluated using accuracy, precision, recall, F1-score, confusion matrix
 
----
+Pythin files and what models they have
+MUTLISPEECH1 - take ultrasound videos, picks up a random image and takes audio features (2 kinds of data)
+MUTLTISPEECH2 -  take ultrasound videos, picks up a first 10 image framses, 128*128 grayscale and takes audio features (2 kinds of data)
+MULTISPEECH3-  take ultrasound videos, picks up a first 10 image framses, 128*128 grayscale and takes audio features as well as prompt text data. (3 kinds of data)
 
 ## 🔬 Why This Matters
 
